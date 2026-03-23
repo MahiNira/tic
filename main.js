@@ -80,6 +80,7 @@ function restartGame(){
  currentPlayer = x;
  player="X"
  running = true;
+     statusTxt.textContent = `${player} Your Turn`;
  boxs.forEach(box=>{
     box.innerHTML=""
     box.classList.remove("win")
